@@ -1,0 +1,23 @@
+Available functionalities in Plot FunC++ (with decreasing precedence):
+
+Function/Operator/Constant	Syntax
+--------------------------	---------------
+
+fabs() or the mod function	m()
+floor()				f()
+ln() or loge()			n()
+log() or log10()		l()
+tan()				t()
+sin()				s()
+cos()				c()
+Exponentation			^
+Division			/
+Multiplication/Product		*
+Subtraction			-
+Addition/Sum			+
+e  ( = 2.71...)			e or E
+pi ( = 3.1415...)		p or P
+
+Example :  e^(sin(ln(2x)))    should be written as :	e^(s(n(2*x)))
+
+NOTE : 2x is incorrect, 2*x is correct.
